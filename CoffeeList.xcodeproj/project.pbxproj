@@ -21,6 +21,7 @@
 		82DD46C22A89168C0098A7BC /* Coffe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BE2A89168B0098A7BC /* Coffe.swift */; };
 		82DD46C32A89168C0098A7BC /* CoffeHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BF2A89168C0098A7BC /* CoffeHeaderItem.swift */; };
 		82DD46C52A8917FA0098A7BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82DD46C42A8917F90098A7BC /* .gitignore */; };
+		82DD46FE2A8968580098A7BC /* coffe_list.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82DD46FD2A8968580098A7BC /* coffe_list.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		82DD46BE2A89168B0098A7BC /* Coffe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffe.swift; sourceTree = "<group>"; };
 		82DD46BF2A89168C0098A7BC /* CoffeHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeHeaderItem.swift; sourceTree = "<group>"; };
 		82DD46C42A8917F90098A7BC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		82DD46FD2A8968580098A7BC /* coffe_list.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coffe_list.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		82DD467C2A8914080098A7BC = {
 			isa = PBXGroup;
 			children = (
+				82DD46FC2A8968400098A7BC /* statics */,
 				82DD46C42A8917F90098A7BC /* .gitignore */,
 				82DD46872A8914080098A7BC /* CoffeeList */,
 				82DD46982A89140E0098A7BC /* CoffeeListTests */,
@@ -162,6 +165,14 @@
 				82DD46B62A8914840098A7BC /* View+Ext.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		82DD46FC2A8968400098A7BC /* statics */ = {
+			isa = PBXGroup;
+			children = (
+				82DD46FD2A8968580098A7BC /* coffe_list.gif */,
+			);
+			path = statics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DD46FE2A8968580098A7BC /* coffe_list.gif in Resources */,
 				82DD46902A89140E0098A7BC /* Preview Assets.xcassets in Resources */,
 				82DD46C52A8917FA0098A7BC /* .gitignore in Resources */,
 				82DD468D2A89140E0098A7BC /* Assets.xcassets in Resources */,
