@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		82DD46892A8914080098A7BC /* CoffeeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46882A8914080098A7BC /* CoffeeListApp.swift */; };
-		82DD468B2A8914080098A7BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD468A2A8914080098A7BC /* ContentView.swift */; };
 		82DD468D2A89140E0098A7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD468C2A89140E0098A7BC /* Assets.xcassets */; };
 		82DD46902A89140E0098A7BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD468F2A89140E0098A7BC /* Preview Assets.xcassets */; };
 		82DD469A2A89140E0098A7BC /* CoffeeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46992A89140E0098A7BC /* CoffeeListTests.swift */; };
 		82DD46A42A89140E0098A7BC /* CoffeeListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46A32A89140E0098A7BC /* CoffeeListUITests.swift */; };
 		82DD46A62A89140E0098A7BC /* CoffeeListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46A52A89140E0098A7BC /* CoffeeListUITestsLaunchTests.swift */; };
+		82DD46B82A8914840098A7BC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46B42A8914840098A7BC /* Colors.swift */; };
+		82DD46B92A8914840098A7BC /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46B52A8914840098A7BC /* Images.swift */; };
+		82DD46BA2A8914840098A7BC /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46B62A8914840098A7BC /* View+Ext.swift */; };
+		82DD46C02A89168C0098A7BC /* CoffeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BC2A89168B0098A7BC /* CoffeListView.swift */; };
+		82DD46C12A89168C0098A7BC /* CoffeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BD2A89168B0098A7BC /* CoffeItemView.swift */; };
+		82DD46C22A89168C0098A7BC /* Coffe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BE2A89168B0098A7BC /* Coffe.swift */; };
+		82DD46C32A89168C0098A7BC /* CoffeHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD46BF2A89168C0098A7BC /* CoffeHeaderItem.swift */; };
+		82DD46C52A8917FA0098A7BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82DD46C42A8917F90098A7BC /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		82DD46852A8914080098A7BC /* CoffeeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD46882A8914080098A7BC /* CoffeeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListApp.swift; sourceTree = "<group>"; };
-		82DD468A2A8914080098A7BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82DD468C2A89140E0098A7BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DD468F2A89140E0098A7BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82DD46952A89140E0098A7BC /* CoffeeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		82DD469F2A89140E0098A7BC /* CoffeeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD46A32A89140E0098A7BC /* CoffeeListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListUITests.swift; sourceTree = "<group>"; };
 		82DD46A52A89140E0098A7BC /* CoffeeListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82DD46B42A8914840098A7BC /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		82DD46B52A8914840098A7BC /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		82DD46B62A8914840098A7BC /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		82DD46BC2A89168B0098A7BC /* CoffeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeListView.swift; sourceTree = "<group>"; };
+		82DD46BD2A89168B0098A7BC /* CoffeItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeItemView.swift; sourceTree = "<group>"; };
+		82DD46BE2A89168B0098A7BC /* Coffe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffe.swift; sourceTree = "<group>"; };
+		82DD46BF2A89168C0098A7BC /* CoffeHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeHeaderItem.swift; sourceTree = "<group>"; };
+		82DD46C42A8917F90098A7BC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		82DD467C2A8914080098A7BC = {
 			isa = PBXGroup;
 			children = (
+				82DD46C42A8917F90098A7BC /* .gitignore */,
 				82DD46872A8914080098A7BC /* CoffeeList */,
 				82DD46982A89140E0098A7BC /* CoffeeListTests */,
 				82DD46A22A89140E0098A7BC /* CoffeeListUITests */,
@@ -94,8 +109,9 @@
 		82DD46872A8914080098A7BC /* CoffeeList */ = {
 			isa = PBXGroup;
 			children = (
+				82DD46B32A8914560098A7BC /* Core */,
+				82DD46B22A89144E0098A7BC /* View */,
 				82DD46882A8914080098A7BC /* CoffeeListApp.swift */,
-				82DD468A2A8914080098A7BC /* ContentView.swift */,
 				82DD468C2A89140E0098A7BC /* Assets.xcassets */,
 				82DD468E2A89140E0098A7BC /* Preview Content */,
 			);
@@ -125,6 +141,27 @@
 				82DD46A52A89140E0098A7BC /* CoffeeListUITestsLaunchTests.swift */,
 			);
 			path = CoffeeListUITests;
+			sourceTree = "<group>";
+		};
+		82DD46B22A89144E0098A7BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82DD46BE2A89168B0098A7BC /* Coffe.swift */,
+				82DD46BF2A89168C0098A7BC /* CoffeHeaderItem.swift */,
+				82DD46BD2A89168B0098A7BC /* CoffeItemView.swift */,
+				82DD46BC2A89168B0098A7BC /* CoffeListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82DD46B32A8914560098A7BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				82DD46B42A8914840098A7BC /* Colors.swift */,
+				82DD46B52A8914840098A7BC /* Images.swift */,
+				82DD46B62A8914840098A7BC /* View+Ext.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DD46902A89140E0098A7BC /* Preview Assets.xcassets in Resources */,
+				82DD46C52A8917FA0098A7BC /* .gitignore in Resources */,
 				82DD468D2A89140E0098A7BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82DD468B2A8914080098A7BC /* ContentView.swift in Sources */,
+				82DD46C02A89168C0098A7BC /* CoffeListView.swift in Sources */,
+				82DD46C32A89168C0098A7BC /* CoffeHeaderItem.swift in Sources */,
+				82DD46C22A89168C0098A7BC /* Coffe.swift in Sources */,
+				82DD46C12A89168C0098A7BC /* CoffeItemView.swift in Sources */,
+				82DD46B92A8914840098A7BC /* Images.swift in Sources */,
+				82DD46BA2A8914840098A7BC /* View+Ext.swift in Sources */,
+				82DD46B82A8914840098A7BC /* Colors.swift in Sources */,
 				82DD46892A8914080098A7BC /* CoffeeListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,8 +467,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +496,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
